@@ -10,9 +10,9 @@ import LocationCard from '@/components/LocationCard'
 
 const ClientHomePage = () => {
   return (
-    <div className="pt-16 lg:pt-20">
+    <div className="pt-16 lg:pt-20 w-full overflow-x-hidden">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-start pt-20 overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100">
+      <section className="relative min-h-screen flex items-start pt-20 overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 w-full">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
