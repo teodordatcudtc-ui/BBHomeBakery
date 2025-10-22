@@ -40,7 +40,7 @@ const ClientHomePage = () => {
                   Comandă Acum
                   <ArrowRight className="ml-2" size={20} />
                 </Link>
-                <Link href="/produse" className="btn-outline text-lg px-8 py-4 border-secondary text-secondary hover:bg-secondary hover:text-white whitespace-nowrap">
+                <Link href="/produse" className="btn-outline text-lg px-8 py-4 border-secondary text-secondary hover:bg-secondary hover:text-white whitespace-nowrap flex items-center justify-center">
                   Vezi Produsele
                 </Link>
               </div>
@@ -386,10 +386,10 @@ const ClientHomePage = () => {
               Contactează-ne pentru comenzi personalizate sau vizitează-ne în una din locațiile noastre
             </p>
             <div className="flex flex-row gap-4 justify-center items-center flex-wrap px-2 sm:px-0">
-              <Link href="/comanda" className="btn-secondary text-lg px-8 py-4 whitespace-nowrap">
+              <Link href="/comanda" className="btn-secondary text-lg px-8 py-4 whitespace-nowrap flex items-center justify-center">
                 Comandă Acum
               </Link>
-              <Link href="/produse" className="btn-outline text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-secondary whitespace-nowrap">
+              <Link href="/produse" className="btn-outline text-lg px-8 py-4 border-white text-white hover:bg-white hover:text-secondary whitespace-nowrap flex items-center justify-center">
                 Vezi Produsele
               </Link>
               {siteConfig.phone && (

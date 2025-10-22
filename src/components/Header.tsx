@@ -30,7 +30,7 @@ const Header = () => {
   ]
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <header className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${
       isScrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-transparent'
     }`}>
       <nav className="container-custom">
@@ -78,10 +78,10 @@ const Header = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 rounded-md text-gray-700 hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary mr-2 lg:mr-0"
+            className="lg:hidden p-3 rounded-lg text-gray-800 hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary mr-2 lg:mr-0 bg-white/90 backdrop-blur-sm shadow-lg border border-gray-200 relative z-[101]"
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
 
