@@ -13,14 +13,14 @@ const ClientHomePage = () => {
     <div className="pt-16 lg:pt-20 w-full overflow-x-hidden">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-start pt-20 overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 w-full">
-        <div className="container-custom">
+        <div className="container-custom px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="space-y-8 px-2 sm:px-0"
+              className="space-y-8"
             >
               <div className="space-y-6">
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold leading-tight text-secondary">
@@ -35,7 +35,7 @@ const ClientHomePage = () => {
                 </p>
               </div>
               
-              <div className="flex flex-col sm:flex-row gap-4 px-2 sm:px-0">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/comanda" className="btn-primary text-lg px-8 py-4 whitespace-nowrap flex items-center justify-center">
                   Comandă Acum
                   <ArrowRight className="ml-2" size={20} />
@@ -67,7 +67,7 @@ const ClientHomePage = () => {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative px-2 sm:px-0"
+              className="relative"
             >
               <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 {/* Image Carousel */}
@@ -119,7 +119,7 @@ const ClientHomePage = () => {
 
       {/* Locații Rapide */}
       <section className="section-padding bg-background">
-        <div className="container-custom">
+        <div className="container-custom px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -166,7 +166,7 @@ const ClientHomePage = () => {
 
       {/* Produse Populare */}
       <section className="section-padding bg-gray-50">
-        <div className="container-custom">
+        <div className="container-custom px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -182,7 +182,7 @@ const ClientHomePage = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2 sm:px-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {siteConfig.featuredProducts.map((product, index) => (
               <motion.div
                 key={product.id}
@@ -243,7 +243,7 @@ const ClientHomePage = () => {
 
       {/* Despre Noi Preview */}
       <section className="section-padding bg-white">
-        <div className="container-custom">
+        <div className="container-custom px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
@@ -298,7 +298,7 @@ const ClientHomePage = () => {
 
       {/* Why Choose Us Section */}
       <section className="section-padding bg-gray-50">
-        <div className="container-custom">
+        <div className="container-custom px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -314,7 +314,7 @@ const ClientHomePage = () => {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-2 sm:px-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
                 icon: Leaf,
@@ -385,7 +385,7 @@ const ClientHomePage = () => {
             <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
               Contactează-ne pentru comenzi personalizate sau vizitează-ne în una din locațiile noastre
             </p>
-            <div className="flex flex-row gap-4 justify-center items-center flex-wrap px-2 sm:px-0">
+            <div className="flex flex-row gap-4 justify-center items-center flex-wrap">
               <Link href="/comanda" className="btn-secondary text-lg px-8 py-4 whitespace-nowrap flex items-center justify-center">
                 Comandă Acum
               </Link>
