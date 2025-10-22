@@ -1,0 +1,83 @@
+# Imagini Placeholder pentru B&B Home Bakery
+
+Această structură conține toate imaginile necesare pentru site. 
+Înlocuiește imaginile placeholder cu imagini reale ale produselor și locațiilor.
+
+## Structura imaginilor:
+
+### Hero & General
+- hero-bakery.jpg (1920x1080) - Imagine principală hero
+- about-hero.jpg (800x600) - Echipa la lucru
+- about-preview.jpg (800x600) - Preview despre noi
+- laborator.jpg (800x600) - Laboratorul din Bragadiru
+- og-image.jpg (1200x630) - Imagine Open Graph
+
+### Produse
+/products/
+- tort-chocolate.jpg (400x400) - Tort cu ciocolată
+- tort-fructe.jpg (400x400) - Tort cu fructe
+- tort-nunta.jpg (400x400) - Tort de nuntă
+- cheesecake.jpg (400x400) - Cheesecake
+- tiramisu.jpg (400x400) - Tiramisu
+- carrot-cake.jpg (400x400) - Carrot cake
+- briosa-fructe.jpg (400x400) - Brioșe cu fructe
+- briosa-ciocolata.jpg (400x400) - Brioșe cu ciocolată
+- briosa-vanilie.jpg (400x400) - Brioșe cu vanilie
+- macarons.jpg (400x400) - Macarons
+- eclere.jpg (400x400) - Eclere
+
+### Galerie
+/gallery/
+- tort-chocolate-1.jpg (600x600) - Galerie tort ciocolată
+- cheesecake-1.jpg (600x600) - Galerie cheesecake
+- briosa-fructe-1.jpg (600x600) - Galerie brioșe fructe
+- tort-nunta-1.jpg (600x600) - Galerie tort nuntă
+- tiramisu-1.jpg (600x600) - Galerie tiramisu
+- macarons-1.jpg (600x600) - Galerie macarons
+- eclere-1.jpg (600x600) - Galerie eclere
+- carrot-cake-1.jpg (600x600) - Galerie carrot cake
+- tort-fructe-1.jpg (600x600) - Galerie tort fructe
+- briosa-ciocolata-1.jpg (600x600) - Galerie brioșe ciocolată
+- briosa-vanilie-1.jpg (600x600) - Galerie brioșe vanilie
+- laborator-1.jpg (600x600) - Galerie laborator
+
+### Blog
+/blog/
+- ingrediente-naturale.jpg (800x400) - Articol ingrediente
+- istoria-cofetariei.jpg (800x400) - Articol istorie
+- retete-traditionale.jpg (800x400) - Articol retete
+
+### Locații
+/locations/
+- bucuresti-mihail-sebastian.jpg (600x400) - Locația Mihail Sebastian
+- bucuresti-aerogarii.jpg (600x400) - Locația Aerogarii
+- bragadiru-laborator.jpg (600x400) - Laboratorul Bragadiru
+- bucuresti-nazuintei.jpg (600x400) - Locația Nazuintei
+- overview.jpg (800x600) - Vedere generală locații
+
+### Icoane și Logo
+- favicon.ico (32x32) - Favicon principal
+- favicon-16x16.png (16x16) - Favicon mic
+- favicon-32x32.png (32x32) - Favicon mediu
+- apple-touch-icon.png (180x180) - Icon Apple
+- android-chrome-192x192.png (192x192) - Icon Android
+- android-chrome-512x512.png (512x512) - Icon Android mare
+- logo.png (200x200) - Logo principal
+
+### Screenshots PWA
+/screenshots/
+- desktop-home.png (1280x720) - Screenshot desktop
+- mobile-home.png (390x844) - Screenshot mobile
+
+## Instrucțiuni:
+
+1. Înlocuiește toate imaginile placeholder cu imagini reale
+2. Asigură-te că imaginile sunt optimizate pentru web (WebP, AVIF)
+3. Folosește dimensiunile recomandate pentru fiecare imagine
+4. Testează încărcarea imaginilor pe diferite dispozitive
+5. Optimizează imaginile pentru performanță (compresie, lazy loading)
+
+## Servicii recomandate pentru optimizare:
+- TinyPNG pentru compresie
+- Squoosh.app pentru conversie format
+- Next.js Image Optimization (automat)
